@@ -1,1 +1,1 @@
-# landing-page-TOP
+This project is for building a basic website landing page layout to test my CSS and HTML skills.
