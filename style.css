@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 .hero-section {
@@ -92,7 +92,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 400px;
+    height: 330px;
 }
 
 .info-title {
@@ -106,10 +106,7 @@ a {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    
-    
-    
+    gap: 60px;   
 }
 
 .card-image {
@@ -131,3 +128,31 @@ a {
     color: #676869;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.quote-container {
+    max-width: 780px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;  
+    /*I don't know why but roboto is not being rendered in my Chrome */
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    
+}
