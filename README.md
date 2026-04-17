@@ -1,1 +1,5 @@
 This project is for building a basic website landing page layout to test my CSS and HTML skills.
+
+This completely uses flexbox for alignment.
+
+External CSS is used.
